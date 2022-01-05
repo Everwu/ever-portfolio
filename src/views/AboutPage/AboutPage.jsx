@@ -37,9 +37,10 @@ class AboutPage extends Component {
                             </div>
                             <div className="Personal-Right">
                                 <h1>Ever Wu</h1>
-                                <h2>UX/UI and Product Designer</h2>
-                                <p>An UX/UI and Product Designer with a strong background in user interface design, branding design and interaction design. I specialize in designing responsive websites and mobile apps with the focus on creating simple, intuitive, and valuable user experiences. I have a great passion for design and a simple but modern aesthetic. I thrive in a collaborative environment and am driven by evolution and the pioneering of new ideas. </p>
-                                <a href="http://everwudesign.com/resume.pdf"><button className="button-CaseStudy">View Resume</button></a>
+                                <h2>UX/UI Designer and Web Developer</h2>
+                                <p>As a self-motivated lifelong learner, I have strong skills in UI/UX design and front-end web development. Competencies with HTML5, CSS, Javascript, React, Wire-framing, Adobe XD, Sketch, Sigma, Prototype and A/B testing.
+Well-versed in designing interactive and highly usable products. </p>
+                                <a href="https://drive.google.com/file/d/1ugNzaVVPhO2ntg7DdPAl7Sr1e3iuQdtA/view?usp=sharing"><button className="button-CaseStudy">View Resume</button></a>
                             </div>
                         </div>
                         <div className="AboutPage__Passions-Skills row-section">
