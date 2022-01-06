@@ -234,7 +234,8 @@ class LandingPage extends Component {
                                     <h1>Hi there, this is</h1>
                                     <h1>Ever Wu</h1>
                                 </div>
-                                <h2>A UX/UI, Visual Designer with a focus in user experience, visual and interaction design based in San Francisco and Irvine.</h2>
+                                <h2>UI/UX background working experience with a focus in Front End Development. </h2>
+                                <h2>Actively looking for new challenges!</h2>
                             </div>
                             <div className="LandingPage__Scroll-Down-Button">
                                 <a href="#DesignList">

@@ -66,7 +66,6 @@
             margin: auto;
             h1{
                 font-size: 24px;
-                font-weight: normal;
                 margin-top: 26px;
             }
             h2{
@@ -92,7 +91,6 @@
                 font-size: 12px;
                 background-color: #0d5734;
                 color: white;
-                vertical-align: middle;
                 text-align: center;
                 text-decoration-line: none;
                 margin: auto;
@@ -164,7 +162,7 @@
     .AboutPage__Passions-Skills{
         h1{  
             font-family: $font-family--primary;
-            font-weight: normal;
+            font-weight: bold;
             font-size: 16px;
             margin-top: 80px;
             margin-bottom: 57px;

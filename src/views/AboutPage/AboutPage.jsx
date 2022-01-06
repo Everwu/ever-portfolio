@@ -38,9 +38,9 @@ class AboutPage extends Component {
                             <div className="Personal-Right">
                                 <h1>Ever Wu</h1>
                                 <h2>UX/UI Designer and Web Developer</h2>
-                                <p>As a self-motivated lifelong learner, I have strong skills in UI/UX design and front-end web development. Competencies with HTML5, CSS, Javascript, React, Wire-framing, Adobe XD, Sketch, Sigma, Prototype and A/B testing.
+                                <p>As a self-motivated lifelong learner, I have strong skills in UI/UX design and front-end web development. Competencies with HTML5, CSS, Javascript, React, Wire-framing, Adobe XD, Sketch, Figma, Prototype and A/B testing.
 Well-versed in designing interactive and highly usable products. </p>
-                                <a href="https://drive.google.com/file/d/1ugNzaVVPhO2ntg7DdPAl7Sr1e3iuQdtA/view?usp=sharing"><button className="button-CaseStudy">View Resume</button></a>
+                                <a href="https://drive.google.com/file/d/1CORac9v8HFi9q8Qd8kh0J278fXW5uvlD/view?usp=sharing"><button className="button-CaseStudy">View Resume</button></a>
                             </div>
                         </div>
                         <div className="AboutPage__Passions-Skills row-section">
@@ -48,23 +48,26 @@ Well-versed in designing interactive and highly usable products. </p>
                             <div className="Passions-Skills__List">
                                 <div className="Passion-Skills__Item">
                                     <img className="Passion-Skills__Item-Icon" src={IconDesign}></img>
-                                    <div className="Passion-Skills__Item-Name">Design</div>
-                                    <div className="Passion-Skills__Item-Detail">Visual Design<br />Photoshop<br />Illustrator<br />InDesign<br />Adobe XD<br />Motion Graphics<br />After Effects<br />Premiere<br />Sketch<br />InVision<br />Zeplin</div>
+                                    <div className="Passion-Skills__Item-Name">Design Tools </div>
+                                    <div className="Passion-Skills__Item-Detail">Figma<br />Photoshop<br />Illustrator<br />InDesign<br />Adobe XD<br />After Effects<br />Sketch<br />InVision<br />Zeplin</div>
                                 </div>
+                                
                                 <div className="Passion-Skills__Item">
                                     <img className="Passion-Skills__Item-Icon" src={IconUserExperience}></img>
                                     <div className="Passion-Skills__Item-Name">User Experience</div>
                                     <div className="Passion-Skills__Item-Detail">Interaction Design<br />Sitemaps<br />Information architecture<br />Sketches<br />Wireframes<br />Prototypes<br />Mockups<br />A/B Testing</div>
                                 </div>
+                                {/*
                                 <div className="Passion-Skills__Item">
                                     <img className="Passion-Skills__Item-Icon" src={IconMarketing}></img>
                                     <div className="Passion-Skills__Item-Name">Marketing</div>
                                     <div className="Passion-Skills__Item-Detail">Organization Skills<br />Marketing Strategy <br />Research Skills<br />Know the difference <br />between goals<br />strategies and tactics<br />SEO Tool knowledge<br />Understand Data Visualization</div>
                                 </div>
+                                */}
                                 <div className="Passion-Skills__Item">
                                     <img className="Passion-Skills__Item-Icon" src={IconProgramming}></img>
                                     <div className="Passion-Skills__Item-Name">Programming</div>
-                                    <div className="Passion-Skills__Item-Detail">HTML5<br />CSS3<br />JavaScript<br />PHP<br />Sublime Text<br />GitHub</div>
+                                    <div className="Passion-Skills__Item-Detail">HTML5<br />CSS<br />JavaScript<br />React<br />Bootstraps<br />VSCode<br />GitHub</div>
                                 </div>
                             </div>
                         </div>
