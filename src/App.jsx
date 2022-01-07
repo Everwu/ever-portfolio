@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useParams,} from 'react-router-dom';
 
 import './App.css';
-
 import { PATHS } from './routePaths';
 
 import LandingPage from './views/LandingPage/LandingPage';
@@ -11,7 +10,7 @@ import AboutPage from './views/AboutPage/AboutPage';
 import PublicFooter from './components/PublicFooter/PublicFooter';
 import LandingAnimation from './components/LandingAnimation/LandingAnimation';
 import DesignList from './views/DesignList/DesignList';
-import DesignDetail from './views/DesignList/DesignDetails/DesignDetail'
+import DesignDetail from './views/DesignList/DesignDetails/DesignDetail';
 
 class AppRouter extends Component {
   constructor(props) {

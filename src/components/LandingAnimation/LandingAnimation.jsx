@@ -62,7 +62,7 @@ class LandingAnimation extends Component {
 		this.handelTileAnimationCompleted = this.handelTileAnimationCompleted.bind(this);
     }
 
-	componentWillMount(){
+	UNSAFE_componentWillMount(){
 		let smallerLength = windowWidth;
 		if ( windowHeight < smallerLength ) {
 			smallerLength = windowHeight;
